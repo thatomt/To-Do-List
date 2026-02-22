@@ -13,3 +13,5 @@ def show_tasks(tasks):
             print(f"{i}. {task}")
 
 def add_task(tasks):
+    task = inpit("Enter a new task: ")
+    task.append(task)
