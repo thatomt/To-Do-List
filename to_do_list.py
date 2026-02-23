@@ -16,3 +16,12 @@ def add_task(tasks):
     task = inpit("Enter a new task: ")
     task.append(task)
     print("Task added")
+    
+def remove_task(tasks):
+    show_tasks(tasks)
+    if tasks:
+        index = int(input("Enter task number to remove: "))
+        task.pop(index -1)
+        print("Task removed.")
+
+tasks = []
