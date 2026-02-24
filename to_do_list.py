@@ -30,3 +30,4 @@ while True:
     print(" 1. Add task")
     print(" 2. View Task")
     print(" 3. Remove Task")
+    choice = input("Choose an option: ")
