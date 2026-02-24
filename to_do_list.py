@@ -25,3 +25,8 @@ def remove_task(tasks):
         print("Task removed.")
 
 tasks = []
+
+while True:
+    print(" 1. Add task")
+    print(" 2. View Task")
+    print(" 3. Remove Task")
