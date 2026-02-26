@@ -31,3 +31,8 @@ while True:
     print(" 2. View Task")
     print(" 3. Remove Task")
     choice = input("Choose an option: ")
+
+    if choice == "1":
+        add_task(tasks)
+    elif choice == "2":
+        show_tasks(tasks)
