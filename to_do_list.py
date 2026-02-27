@@ -36,3 +36,9 @@ while True:
         add_task(tasks)
     elif choice == "2":
         show_tasks(tasks)
+    elif choice == "3":
+        remove_task(tasks)
+    elif choice == "4":
+        break
+    else:
+        print("Invalid choice")
