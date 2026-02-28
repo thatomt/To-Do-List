@@ -13,15 +13,15 @@ def show_tasks(tasks):
             print(f"{i}. {task}")
 
 def add_task(tasks):
-    task = inpit("Enter a new task: ")
-    task.append(task)
+    task = input("Enter a new task: ")
+    tasks.append(task)
     print("Task added")
     
 def remove_task(tasks):
     show_tasks(tasks)
     if tasks:
         index = int(input("Enter task number to remove: "))
-        task.pop(index -1)
+        tasks.pop(index -1)
         print("Task removed.")
 
 tasks = []
